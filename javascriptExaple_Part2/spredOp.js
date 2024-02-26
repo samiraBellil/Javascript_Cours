@@ -8,7 +8,7 @@ let minimum = Math.min(...numbers);
 console.log(minimum);
 */
 //we can seerate the elements of array
-/*let username = 'Samira Bellil';
+/*let username = 'Samira Bella';
 let letters = [...username];
 console.log(letters);
 */
