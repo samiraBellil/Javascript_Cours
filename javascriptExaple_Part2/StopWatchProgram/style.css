@@ -1,0 +1,61 @@
+body{
+    margin-top: 100px;
+    padding-top: 50px;
+    background-image: url(watch.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#myH1{
+    color: azure;
+    font-size: 7rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid;
+    border-color: azure;
+    border-radius: 35px;
+}
+#display{
+    margin-bottom: 10px;
+    color: azure;
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    
+
+}
+#controls button{
+    color: azure;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    min-width: 125px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+#startBtn{
+    background-color: rgb(104, 228, 104);
+}
+
+
+#stopBtn{
+    background-color: rgb(235, 89, 89);
+}
+
+
+#resetBtn{
+    background-color: rgb(39, 215, 221);
+}
