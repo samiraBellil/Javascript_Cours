@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#myCar{
+    margin: 50px 50px;
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;  
+}
+#car{
+    width: 400px;
+    color:lightgreen;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bolder; 
+}
